@@ -65,6 +65,12 @@ def processcommand(c):
         wb.open("https://youtube.com")
     elif("open ai" in c.lower()):
         wb.open("https://chatgpt.com") 
+    elif("open github" in c.lower()):
+        wb.open("https://github.com/")    
+    elif("open linkedin" in c.lower()):
+        wb.open("https://www.linkedin.com/feed/")   
+    elif("your favourite lines" in c.lower()):
+        speak("Saatvik Sir is Great")
 
     elif("play" in c.lower()):
         song = c.lower().replace("play ","")
